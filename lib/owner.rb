@@ -8,7 +8,7 @@ class Owner
     @name = name
     @species = species
     @@all << self
-    @count += 1
+    @@count += 1
   end
   
   def say_species
