@@ -39,3 +39,6 @@ class Owner
   
 
 end
+
+
+timmy = Owner.new("Timmy")
