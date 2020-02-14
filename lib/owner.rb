@@ -11,6 +11,7 @@ class Owner
     @species = species
     @@owners << self
     @name = name
+    @pets = pets
   end
 
   def say_species
