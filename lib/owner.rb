@@ -2,6 +2,7 @@ class Owner
   
   @@all = []
   @@count = 0
+  
   attr_reader :name, :species
   
   def initialize(name, species = "human")
