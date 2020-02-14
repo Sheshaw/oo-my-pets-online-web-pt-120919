@@ -1,8 +1,8 @@
 
 class Owner
   # code goes here
-  attr_accessor :name, :pets
-  attr_reader :species
+  attr_accessor :pets
+  attr_reader :species, :name
 
   @@owners = []
 
@@ -26,5 +26,9 @@ class Owner
 
   def self.count
     @@owners.length
+  end
+  
+  def name=(name)
+    @name = name
   end
 end
