@@ -6,14 +6,14 @@ class Owner
 
   @@owners = []
 
-  def initialize(species, pets = {:fishes => [], :dogs => [], :cats => []})
+  def initialize(species = "human", pets = {:fishes => [], :dogs => [], :cats => []})
     @species = species
     @pets = pets
     @@owners << self
   end
 
   def say_species
-    "I am a #{@species}."
+    "I am a human."
   end
 
   def self.all
