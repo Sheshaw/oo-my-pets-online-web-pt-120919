@@ -9,7 +9,7 @@ class Cat
     @@cats << self
   end
   
-  def cats
+  def self.cats
     @@cats
   end
   
