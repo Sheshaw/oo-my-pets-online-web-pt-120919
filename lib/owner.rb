@@ -29,8 +29,5 @@ class Owner
     @@owners.length
   end
 
-  def cats
-    @@cats
-  end
 
 end
