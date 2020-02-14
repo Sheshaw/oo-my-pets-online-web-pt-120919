@@ -8,7 +8,7 @@ class Owner
   end
   
   def say_species
-    print "I am #{species}."
+    "I am a human."
   end
   
   
