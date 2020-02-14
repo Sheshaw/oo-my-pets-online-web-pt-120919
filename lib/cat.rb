@@ -5,7 +5,7 @@ class Cat
 
 attr_reader :name
 
-  def initialize(name, owner)
+  def initialize(name, Owner)
     @name = name
     @mood = "nervous"
     @@cats << self
