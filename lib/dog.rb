@@ -12,8 +12,8 @@ class Dog
     @@dogs << self
   end
   
-  def self.dogs
-    @@dogs
+  def self.all
+    ObjectSpace.each_object(self).to_a
   end
   
 end
