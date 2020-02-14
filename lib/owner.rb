@@ -10,6 +10,7 @@ class Owner
     @species = species
     @pets = pets
     @@owners << self
+    @name = name
   end
 
   def say_species
@@ -27,8 +28,5 @@ class Owner
   def self.count
     @@owners.length
   end
-  
-  def name=(name)
-    @name = name
-  end
+
 end
