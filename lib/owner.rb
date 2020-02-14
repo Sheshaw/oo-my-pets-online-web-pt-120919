@@ -1,4 +1,3 @@
-require 'pry'
 
 class Owner
   attr_accessor :owner, :cat, :dog, :fish, :pets, :fishes, :cats, :dogs
