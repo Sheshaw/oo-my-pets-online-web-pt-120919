@@ -5,8 +5,8 @@ class Owner
   
   attr_reader :name, :species
   
-  def initialize(name, species = "human")
-    @name = name
+  def initialize(owner, species = "human")
+    @owner = owner
     @species = species
     @@all << self
     @@count += 1
@@ -26,6 +26,10 @@ class Owner
   
   def self.reset_all
     self.all.clear
+  end
+  
+  def name=(name)
+    @name = name
   end
     
     
