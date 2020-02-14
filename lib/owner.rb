@@ -27,6 +27,7 @@ class Owner
   def self.count
     @@owners.length
   end
-
+  
+  def cats
 
 end
