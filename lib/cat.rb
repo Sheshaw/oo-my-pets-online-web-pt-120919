@@ -12,8 +12,8 @@ attr_reader :name
     @@cats << self
   end
   
-  def self.cats
-    @@cats
+  def self.all
+    ObjectSpace.each_object(self).to_a
   end
   
 end
